@@ -1,5 +1,6 @@
+ #!/usr/bin/env ruby
 puts "Please enter short sentence:"
-text = gets.chomp.downcase!
+text = gets.chomp.downcase
 words = text.split(" ")
 
 puts "Please enter word you want redacted from sentence:"
@@ -12,3 +13,4 @@ words.each do |each|
     print each + " "
   end
 end
+  puts " "
